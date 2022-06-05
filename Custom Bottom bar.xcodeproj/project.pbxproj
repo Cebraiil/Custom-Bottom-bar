@@ -14,6 +14,10 @@
 		0E0D1831284D37AC000CCBDB /* Custom_Bottom_barTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0D1830284D37AC000CCBDB /* Custom_Bottom_barTests.swift */; };
 		0E0D183B284D37AC000CCBDB /* Custom_Bottom_barUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0D183A284D37AC000CCBDB /* Custom_Bottom_barUITests.swift */; };
 		0E0D183D284D37AC000CCBDB /* Custom_Bottom_barUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0D183C284D37AC000CCBDB /* Custom_Bottom_barUITestsLaunchTests.swift */; };
+		0E0D184B284D37F6000CCBDB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0D184A284D37F6000CCBDB /* HomeView.swift */; };
+		0E0D184D284D3801000CCBDB /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0D184C284D3801000CCBDB /* UsersView.swift */; };
+		0E0D184F284D380A000CCBDB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0D184E284D380A000CCBDB /* SettingsView.swift */; };
+		0E0D1851284D3833000CCBDB /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0D1850284D3833000CCBDB /* BottomBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		0E0D1836284D37AC000CCBDB /* Custom Bottom barUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Custom Bottom barUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E0D183A284D37AC000CCBDB /* Custom_Bottom_barUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom_Bottom_barUITests.swift; sourceTree = "<group>"; };
 		0E0D183C284D37AC000CCBDB /* Custom_Bottom_barUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom_Bottom_barUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0E0D184A284D37F6000CCBDB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0E0D184C284D3801000CCBDB /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
+		0E0D184E284D380A000CCBDB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		0E0D1850284D3833000CCBDB /* BottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +102,12 @@
 		0E0D181E284D37AB000CCBDB /* Custom Bottom bar */ = {
 			isa = PBXGroup;
 			children = (
+				0E0D1849284D37E8000CCBDB /* Views */,
 				0E0D181F284D37AB000CCBDB /* Custom_Bottom_barApp.swift */,
 				0E0D1821284D37AB000CCBDB /* ContentView.swift */,
 				0E0D1823284D37AC000CCBDB /* Assets.xcassets */,
 				0E0D1825284D37AC000CCBDB /* Preview Content */,
+				0E0D1850284D3833000CCBDB /* BottomBar.swift */,
 			);
 			path = "Custom Bottom bar";
 			sourceTree = "<group>";
@@ -125,6 +135,16 @@
 				0E0D183C284D37AC000CCBDB /* Custom_Bottom_barUITestsLaunchTests.swift */,
 			);
 			path = "Custom Bottom barUITests";
+			sourceTree = "<group>";
+		};
+		0E0D1849284D37E8000CCBDB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0E0D184A284D37F6000CCBDB /* HomeView.swift */,
+				0E0D184C284D3801000CCBDB /* UsersView.swift */,
+				0E0D184E284D380A000CCBDB /* SettingsView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E0D184F284D380A000CCBDB /* SettingsView.swift in Sources */,
+				0E0D184B284D37F6000CCBDB /* HomeView.swift in Sources */,
+				0E0D1851284D3833000CCBDB /* BottomBar.swift in Sources */,
 				0E0D1822284D37AB000CCBDB /* ContentView.swift in Sources */,
 				0E0D1820284D37AB000CCBDB /* Custom_Bottom_barApp.swift in Sources */,
+				0E0D184D284D3801000CCBDB /* UsersView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
