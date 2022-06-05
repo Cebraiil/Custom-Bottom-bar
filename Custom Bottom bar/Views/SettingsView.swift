@@ -2,7 +2,6 @@
 //  SettingsView.swift
 //  Custom Bottom bar
 //
-//  Created by Abdul Adl on 5.06.2022.
 //
 
 import SwiftUI

@@ -2,7 +2,7 @@
 //  Custom_Bottom_barUITests.swift
 //  Custom Bottom barUITests
 //
-//  Created by Abdul Adl on 5.06.2022.
+
 //
 
 import XCTest
